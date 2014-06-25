@@ -1,4 +1,4 @@
-RCODE ROUTES FOR EXPRESS
+QRCODE ROUTES FOR EXPRESS
 ---
 
 This little and unfinished experiment offers a set of routes to QR Codes generation through REST endpoints.
@@ -41,7 +41,7 @@ NOTES
 
   I like this little module because it doesn't depend on '[node-canvas]' module (as '[node-qrcode]' does) which could take a little more effort to compile.
 
-* This module is just a proof of concept for a project at Redradix, sure there're simpler ways to handle QR Codes in your client code.
+* This module is just a proof of concept for a project at [Redradix], sure there're simpler ways to handle QR Codes in your client code.
 
 * The word "QR Code" is registered trademark of:
 
