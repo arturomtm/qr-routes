@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Test Backbone/Express QRCode</title>
+  </head>
+  <body>
+    <script src="assets/javascripts/vendor/jquery-1.11.1.js"></script>
+    <script src="assets/javascripts/vendor/underscore.js"></script>
+    <script src="assets/javascripts/vendor/backbone.js"></script>
+    <script src="javascripts/qrmodel.js"></script>
+    <script src="javascripts/qrview.js"></script>
+    <script>
+      var qrmodel = new QRModel({
+        id: 'código oculto'
+      });
+      var qrview = new QRView({
+        model: qrmodel
+      });
+      qrmodel.fetch();
+      $("body").append(qrview.render().$el);
+    </script>
+  </body>
+</html>

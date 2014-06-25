@@ -1,0 +1,15 @@
+{
+  "name": "backbone-qrcode",
+  "version": "0.0.1",
+  "description": "Boilerplate to use qrcodes in backbone with express backend",
+  "main": "qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arturomtm",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-npm": "0.0.3",
+    "underscore": "^1.6.0"
+  }
+}
